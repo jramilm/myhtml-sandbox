@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<title>Event List</title>
+		<style>
+			* {
+				text-align: center;
+				font-family: 'Open Sans', sans-serif;	
+			}
+			
+			table {
+				width: 90%;
+				border-collapse: collapse;
+				display: inline-table;
+				margin: 25px 0;
+				font-size: 0.9em;	
+				min-width: 400px;
+				border-radius: 5px 5px 0 0;
+				overflow: hidden;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+			}
+			
+			thead tr {
+				background-color: #201f1f;
+				color: white;
+				font-weight: bold;
+			}
+				
+			th, td {
+				padding: 12px 20px;
+				text-align: center;
+				border: 1px solid #dddddd;
+			}	
+			
+			tbody tr:nth-of-type(even) {
+				background-color: #f3f3f3;
+			}
+			
+			tbody tr:last-of-type {
+				border-bottom: 2px solid #201f1f;
+			}
+			
+			p {
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>List of Organization Events</h1>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Event</th>
+					<th>Date</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>General Assembly</td>
+					<td><p>The Committee will discuss their future plans for the organization. All members of the organizations will be required to attend.</p></td>
+					<td>September 01, 2023</td>
+					<td>Performing Arts Center</td>
+					
+				</tr>
+				<tr>
+					<td>Sports Fest</td>
+					<td><p>Student representatives will be competing in several sport events such as basketball, volleyball, badminton, chess and a lot more. Students who will participate will be exempted for regular classes.</p></td>
+					<td>September 09, 2023</td>
+					<td>University Sports Complex</td>
+				</tr>
+				<tr>
+					<td>Music Fest</td>
+					<td><p>Various bands from outside and inside the university will be performing. There will also be an open mic for students who wants to sing.</p></td>
+					<td>September 12, 2023</td>
+					<td>School Grounds</td>
+				</tr>
+				<tr>
+					<td>Programming Competition</td>
+					<td><p>Student representatives from each year will be competing in a supervised programming competition. Three winners will be sent to regionals to compete.</p></td>
+					<td>September 18, 2023</td>
+					<td>University Computer Hub</td>
+				</tr>
+				<tr>
+					<td>Science Fair</td>
+					<td><p>Various independent science projects from the students will be showcased. This will be an opportunity for students to apply scientific methods to conduct their researches.</p></td>
+					<td>September 30, 2023</td>
+					<td>All around the School Campus</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
